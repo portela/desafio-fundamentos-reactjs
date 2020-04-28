@@ -50,11 +50,6 @@ const Import: React.FC = () => {
     setUploadedFiles(formattedFiles);
   }
 
-  useEffect(() => {
-    console.log('uploadedFiles');
-    console.log(uploadedFiles);
-  }, [uploadedFiles]);
-
   return (
     <>
       <Header size="small" />
